@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="Enter Your Location" id="location-input">
+            <button class="bx bx-search" id="search-button"></button>
+        </div>
+
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="images/cloud.png" id="weather-icon">
+                        <p class="temperature" id="temperature"></p>
+                        <p class="description" id="description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span id="humidity"></span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span id="wind"></span>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="air-pressure">
+                <i class='bx bx-up-arrow-alt'></i>
+                <div class="text">
+                    <div class="info-air-pressure">
+                        <span id="air-pressure"></span>
+                        <p>Air Pressure</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visibility">
+                <i class='bx bx-low-vision'></i>
+                <div class="text">
+                    <div class="info-visibility">
+                        <span id="visibility"></span>
+                        <p>Visibility</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sunrise">
+                <i class='bx bx-sun'></i>
+                <div class="text">
+                    <div class="info-sunrise">
+                        <span id="sunrise"></span>
+                        <p>Sunrise</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sunset">
+                <i class='bx bx-moon'></i>
+                <div class="text">
+                    <div class="info-sunset">
+                        <span id="sunset"></span>
+                        <p>Sunset</p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
